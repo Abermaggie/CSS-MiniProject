@@ -1,0 +1,102 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body {
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: rgb(123, 153, 189);
+    color:rgb(15, 4, 107)
+}
+h1,
+h2 {
+    margin: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 100px 100px 100px;
+}
+li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+header,
+footer
+ {
+    height: 60px;
+    width:100%;
+    line-height: 60px;
+    padding: auto ;
+
+}
+header
+ {
+    position: fixed;
+    border-bottom: 6px solid darkblue;
+    text-align: center;
+}
+footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid;
+    text-align:center;
+}
+figure {
+margin-bottom: 50px;
+}
+img {
+    display: block;
+    margin: 20px auto;
+    height: 30%;
+    width: 30%;
+    border: 5px solid bisque;
+}
+section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid;
+}
+form {
+    margin: 0 auto;
+    width: 700px;
+    padding: 10px;
+    border: 5px solid;
+    border-radius: 30px;
+    text-align: left;
+}
+input,
+textarea {
+    box-sizing: border-box;
+    width: 85%;
+    border: .5px solid;
+}
+button {
+    height: 30px;
+    width: 120px;
+    background-color:
+    text-align: center;
+}
+.My-links {
+    font-weight: bolder;
+    color: rgb(101, 68, 134);
+
+}
+.Fixed-Header {
+    text-align: center;
+    font-weight:600;
+    color:darkblue;
+}
+#Nav-buttons {
+    text-align: center;
+    color: rgb(83, 75, 92);
+}
+.BG-color {
+    background-color: bisque;
+}
